@@ -1,0 +1,55 @@
+.sitiesList{
+    width: 410px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    white-space:nowrap
+    }
+
+.frameCover {
+    background: #60a3bc;
+    width: 200px; /* Ширина элемента в пикселах */
+    height: 100px;
+    border-radius: 50px;
+}
+
+.select{
+    width: 150px; /* Ширина элемента в пикселах */
+    height: 85px;
+    background: #60a3bc;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.selectList{
+    margin: auto;
+    width: 150px; /* Ширина элемента в пикселах */
+    height: 70px;
+    padding: 7px;
+    }
+
+.selectbutton,.frameCover {
+    display:inline-block; /* Сделали все div в одну строку */
+    width: 200px; /* Ширина элемента в пикселах */
+    height: 100px
+    }
+
+.selectbutton {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.4s ease 0s;
+    float: right;
+    }
+
+.selectbutton:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
